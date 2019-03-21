@@ -1,0 +1,71 @@
+.container {
+  padding: 0 20%;
+}
+
+.slot, .entries {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row;
+}
+
+.slot .time {
+  align-self: center;
+  width: 110px;
+}
+
+.slot .title {
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.slot .half {
+  width: 50%;
+}
+
+.slot .full {
+  width: 100%;
+}
+
+.slot.break {
+  background-color: var(--gray-1);
+  padding: 0 20px;
+}
+
+.slot.break .title {
+  text-align: center;
+}
+
+.slot.white-background .title {
+  border: 1px solid var(--gray-1);
+  background-color: white;
+  color: black;
+}
+
+.slot.white-background .title > span, .slot.white-background .title a{
+  padding: 2rem;
+  display: inline-block;
+}
+
+@media (--medium-viewport) {
+  .slot,
+  .slot .entries {
+    flex-flow: column;
+  }
+  .slot .time {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .slot .title {
+    padding: 1rem 0;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .slot.white-background .title {
+    border-left: none;
+    border-right: none;
+  }
+}
