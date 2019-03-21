@@ -1,4 +1,4 @@
-# Knowit Madrid
+# Knowit Kjøbenhavn
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 
