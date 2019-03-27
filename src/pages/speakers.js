@@ -56,7 +56,7 @@ const SpeakersPage = () => (
             <h2>Informasjon</h2>
             <p>
               Knowit Stavanger arrangerer fagseminar årlig. Det er de ansatte
-              selv som lager programmet. Høsten 2018 vil den bli avholdt 25.
+              selv som lager programmet. Våren 2018 vil den bli avholdt 25.
               oktober - 28. oktober 2018 i Madrid, Spania.
             </p>
             <p>Tidligere har vi besøkt bl.a. Berlin, Lofoten, Praha, Kiel.</p>

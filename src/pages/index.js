@@ -56,7 +56,7 @@ const IndexPage = () => (
             <h2>Informasjon</h2>
             <p>
               Knowit Stavanger arrangerer fagseminar årlig. Det er de ansatte
-              selv som lager programmet. Høsten 2019 vil den bli avholdt 4.
+              selv som lager programmet. Våren 2019 vil den bli avholdt 4.
               april - 7. april 2019 i Købenavn i Danmark.
             </p>
             <p>Tidligere har vi besøkt bl.a. Berlin, Lofoten, Praha, Kiel og Madrid.</p>
