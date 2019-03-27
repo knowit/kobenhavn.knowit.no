@@ -29,6 +29,7 @@ const viewmodel = {
         {
           time: '09:00',
           title: 'Fagprogram - Start',
+          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/blob/master/bring-up/cloud.md',
           entries: [
             {
               room: 'Auditorium',
@@ -43,6 +44,7 @@ const viewmodel = {
         {
           time: '16:00',
           title: 'Fagprogram - Ferdig',
+          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/tree/master/core-concepts',
         },
         {
           time: '18:00',

@@ -37,12 +37,16 @@ module.exports = {
             {
               time: '09:00',
               title: 'Fagprogram - Start',
-              entries: [
-                {
-                  room: 'Auditorium',
-                  slots: ['kubernetes'],
-                },
-              ],
+            },
+            {
+              time: '09:00 - ca. 10:00',
+              title: 'Kubernetes Cluster Bring-Up',
+          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/blob/master/bring-up/cloud.md',
+            },
+            {
+              time: 'ca. 10:00 - ',
+              title: 'Kubernetes Core Concepts Workshop',
+              link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/tree/master/core-concepts',
             },
             {
               time: '12:00',
