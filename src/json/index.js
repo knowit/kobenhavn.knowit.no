@@ -32,7 +32,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium',
-              slots: ['internmeet'],
+              slots: ['kubernetes'],
             },
           ],
         },

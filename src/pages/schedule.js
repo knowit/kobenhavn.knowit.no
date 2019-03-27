@@ -30,13 +30,9 @@ class SchedulePage extends React.Component {
                   title
                   schedules {
                     day
-                    showHeader
                     collections {
                       time
-                      isBreak
                       title
-                      titleS
-                      link
                     }
                   }
                 }

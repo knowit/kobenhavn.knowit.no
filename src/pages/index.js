@@ -29,7 +29,7 @@ const IndexPage = () => (
       <Layout>
         <div>
           <div className="intro page">
-            <img alt="Madrid konferanse logo" src="./static/madcon.png" />
+            <img alt="København konferanse logo" src="./static/kobenhavn.png" />
             <h1>{data.site.siteMetadata.data.title}</h1>
             <div>
               <p className="white">
@@ -56,17 +56,10 @@ const IndexPage = () => (
             <h2>Informasjon</h2>
             <p>
               Knowit Stavanger arrangerer fagseminar årlig. Det er de ansatte
-              selv som lager programmet. Høsten 2018 vil den bli avholdt 25.
-              oktober - 28. oktober 2018 i Madrid, Spania.
+              selv som lager programmet. Høsten 2019 vil den bli avholdt 4.
+              april - 7. april 2019 i Købenavn i Danmark.
             </p>
-            <p>Tidligere har vi besøkt bl.a. Berlin, Lofoten, Praha, Kiel.</p>
-            <p>
-              Alle rom markert med{' '}
-              <span role="img" aria-label="kamera">
-                🎥
-              </span>{' '}
-              vil bli filmet.
-            </p>
+            <p>Tidligere har vi besøkt bl.a. Berlin, Lofoten, Praha, Kiel og Madrid.</p>
           </div>
         </div>
       </Layout>
