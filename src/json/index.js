@@ -1,152 +1,91 @@
 const viewmodel = {
   title: 'Fagseminar høst 2018',
   event: {
-    date: '25. oktober - 28. oktober 2018',
-    longDate: '25. oktober - 28. oktober 2018',
+    date: '5. april - 7. april 2019',
+    longDate: '5. april - 7. april 2019',
     venue: 'Meliá Castilla, Calle del Poeta Joan Maragall, 43, Madrid, España',
-    city: 'Madrid',
-    country: 'España',
+    city: 'København',
+    country: 'Danmark',
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.6269024565067!2d-3.6943040487441863!3d40.46139406074399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1ce794508da5e9d!2sMeli%C3%A1+Castilla!5e0!3m2!1sen!2sno!4v1537421113811',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.2700000940886!2d12.530804516569166!3d55.6669048805304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652539a71c6bdb1%3A0x469556aeafdd4bc2!2sHotel+Ottilia!5e0!3m2!1sen!2sno!4v1553703436805'
   },
   schedules: [
     {
-      day: 'Fredag 19. Oktober',
+      day: 'Fredag 5. April',
       collections: [
         {
-          time: '19:00',
+          time: '20:20',
           title: 'Flyet drar fra Stavanger Lufthavn',
         },
         {
-          time: '23:00',
-          title: 'Vi ankommer Madrid',
+          time: '21:30',
+          title: 'Vi ankommer København',
         },
       ],
     },
     {
-      day: 'Lørdag 20. Oktober',
+      day: 'Fredag 5. April',
       collections: [
         {
-          time: '09:30-18:00',
-          title: 'Aktiviteter',
-        },
-      ],
-    },
-    {
-      day: 'Søndag 21. Oktober',
-      collections: [
-        {
-          time: '09:00-09:45',
-          title: 'Internmøte',
+          time: '09:00',
+          title: 'Fagprogram - Start',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium',
               slots: ['internmeet'],
             },
           ],
         },
         {
-          time: '10:00-10:20',
-          title: 'Pause',
-          isBreak: true,
-        },
-        {
-          time: '10:15-12:30',
-          title: 'Plenumsforedrag',
-          entries: [
-            {
-              room: 'Auditorium 🎥',
-              slots: [],
-            },
-          ],
-        },
-        {
-          time: '12:30-13:30',
+          time: '12:00',
           title: 'Lunsj',
-          isBreak: true,
         },
         {
-          time: '13:30 - 16:30',
-          title: 'Workshops',
-          entries: [
-            {
-              room: 'Auditorium 🎥',
-              slots: [],
-            },
-            {
-              room: 'Parliament 🎥',
-              slots: [],
-            },
-            {
-              room: 'Congress',
-              slots: [],
-            },
-            {
-              room: 'Bundestag',
-              slots: [],
-            },
-          ],
+          time: '16:00',
+          title: 'Fagprogram - Ferdig',
         },
         {
-          time: '16:30-17:30',
-          title: 'Open Space',
-        },
-        {
-          time: '19:15',
-          title: 'Felles avgang til restaurant',
-        },
-        {
-          time: '19:30',
-          title: 'Restaurant',
+          time: '18:00',
+          title: 'Middag på Vækst',
         },
       ],
     },
     {
-      day: 'Mandag 22. Oktober',
+      day: 'Lørdag 6. April',
       collections: [
         {
-          time: '09:00-12:00',
-          title: 'Workshops',
-          entries: [
-            {
-              room: 'Auditorium 🎥',
-              slots: [],
-            },
-            {
-              room: 'Parliament 🎥',
-              slots: [],
-            },
-            {
-              room: 'Congress',
-              slots: [],
-            },
-            {
-              room: 'Bundestag',
-              slots: [],
-            },
-          ],
+          time: '12:00',
+          title: 'Lunsj på Øl og Brød',
         },
         {
-          time: '12:00-13:00',
-          title: 'Lunsj',
+          time: '14:00-16:00',
+          title: 'Sykkeltur',
+        },
+        {
+          time: '19:00',
+          title: 'Middag på Warpigs',
+        },
+      ],
+    },
+    {
+      day: 'Søndag 7. April',
+      collections: [
+        {
+          time: '16:40',
+          title: 'Flyet drar fra København',
+        },
+        {
+          time: '17:50',
+          title: 'Vi ankommer Stavanger Lufthavn',
         },
       ],
     },
   ],
   talks: {
-    internmeet: {
+    kubernetes: {
       pending: false,
-      speakers: [
-        {
-          name: 'Jan Henrik Gundelsby',
-          bio:
-            'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
-          email: 'jhg@knowit.no',
-          pic: 'jhg.jpg',
-        },
-      ],
-      title: 'Velkommen og internmøte',
-      type: 'Talk',
+      title: 'Kubernetes Workshop',
+      type: 'Workshop',
       description: 'Beskrivelse kommer',
     },
   },
