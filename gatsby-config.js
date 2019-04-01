@@ -33,6 +33,7 @@ module.exports = {
         },
         {
           day: 'Fredag 5. April',
+          showHeader: true,
           collections: [
             {
               time: '09:00',
@@ -70,7 +71,7 @@ module.exports = {
               titleS: 'Hvordan fungerer remarkering?',
             },
             {
-              time: '14:15',
+              time: '14:00',
               title: ' ',
               titleS: 'Pause',
             },
