@@ -44,7 +44,7 @@ const viewmodel = {
         {
           time: '16:00',
           title: 'Fagprogram - Ferdig',
-          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/tree/master/core-concepts',
+          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/tree/master/core-concepts'
         },
         {
           time: '18:00',

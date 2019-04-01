@@ -14,13 +14,13 @@ function renderSlot(title, link, classes) {
 }
 
 const OtherSlot = ({ collection }) => {
-  const { title, titleS, time, link } = collection
+  const { title, titleS, time, link, linkS } = collection
   const extraClass = titleS ? 'half' : 'full'
   return (
     <div className="slot white-background">
       <span className="time">{time}</span>
       {renderSlot(title, link, extraClass)}
-      {titleS ? renderSlot(titleS, link, extraClass) : null}
+      {titleS ? renderSlot(titleS, linkS, extraClass) : null}
     </div>
   )
 }

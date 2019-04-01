@@ -36,25 +36,63 @@ module.exports = {
           collections: [
             {
               time: '09:00',
-              title: 'Fagprogram - Start',
-            },
-            {
-              time: '09:00 - ca. 10:00',
               title: 'Kubernetes Cluster Bring-Up',
-          link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/blob/master/bring-up/cloud.md',
+              link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/blob/master/bring-up/cloud.md',
+              titleS: '1. Sjekkliste: Veien til bedre nettsider (UX)',
             },
             {
-              time: 'ca. 10:00 - ',
-              title: 'Kubernetes Core Concepts Workshop',
+              time: '09:45 - 10:00',
+              title: 'Pause',
+            },
+            {
+              time: '10:00',
+              title: 'Kubernetes Core Concepts Workshops',
               link: 'https://github.com/GoogleCloudPlatform/kubernetes-workshops/tree/master/core-concepts',
+              titleS: '2. Sjekkliste: Søkemotoroptimaliseringstips (Innohold)',
+            },
+            {
+              time: '10:45',
+              title: ' ',
+              titleS: 'Pause',
+            },
+            {
+              time: '11:00',
+              title: ' ',
+              titleS: '3. Webanalyse og innsikt med Google Analytics + egen trening',
             },
             {
               time: '12:00',
               title: 'Lunsj',
             },
             {
+              time: '13:00',
+              title: ' ',
+              titleS: 'Hvordan fungerer remarkering?',
+            },
+            {
+              time: '14:15',
+              title: ' ',
+              titleS: 'Pause',
+            },
+            {
+              time: '14:15',
+              title: ' ',
+              titleS: 'Inbound marketing med MailChimp',
+            },
+            {
+              time: '15:00',
+              title: ' ',
+              titleS: 'Pause',
+            },
+            {
+              time: '15:15',
+              title: ' ',
+              titleS: 'Annonsering med Bing Ads',
+            },
+            {
               time: '16:00',
-              title: 'Fagprogram - Ferdig',
+              title: 'Workshop ferdig',
+              titleS: 'Oppsummerende refleksjoner og diskusjon av muligheter for mer salg  under middagen',
             },
             {
               time: '18:00',
