@@ -66,7 +66,7 @@ module.exports = {
               title: 'Lunsj',
             },
             {
-              time: '13:00',
+              time: '13:15',
               title: ' ',
               titleS: 'Hvordan fungerer remarkering?',
             },
